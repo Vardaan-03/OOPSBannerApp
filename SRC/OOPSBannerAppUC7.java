@@ -1,17 +1,3 @@
-/**
- * OOPSBannerAppUC7 - Store Character Pattern in a Class
- *
- * Extends UC6 by creating a CharacterPatternMap inner static class that
- * encapsulates character data and its corresponding banner pattern,
- * allowing the application to retrieve and display the "OOPS" banner
- * using these stored mappings.
- *
- * Key Concepts: Inner Static Class, Instance Variables, Constructor,
- * Getters, StringBuilder, Arrays of Objects, JavaDoc
- *
- * OOPS Principles: Encapsulation, Modularity, Reusability,
- * Abstraction, Immutability, Single Responsibility, Separation of Concerns
- */
 public class OOPSBannerAppUC7 {
 
     /**
@@ -129,7 +115,6 @@ public class OOPSBannerAppUC7 {
                 return map.getPattern();
             }
         }
-        // If character not found, return space pattern
         return getCharacterPattern(' ', charMaps);
     }
 
@@ -157,18 +142,8 @@ public class OOPSBannerAppUC7 {
         }
     }
 
-    /**
-     * Main method - Entry point of the application
-     *
-     * Creates CharacterPatternMap instances and displays the "OOPS" banner.
-     *
-     * @param args command line arguments (not used)
-     */
     public static void main(String[] args) {
-        // Create character pattern maps
         CharacterPatternMap[] charMaps = createCharacterPatternMaps();
-
-        // Print the OOPS banner
         printMessage("OOPS", charMaps);
     }
 }
