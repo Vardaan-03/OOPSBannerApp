@@ -42,13 +42,13 @@ public class OOPSBannerAppUC7 {
         });
 
         characterPatternMap[2] = new CharacterPatternMap('S', new String[] {
-                "*****",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "*****"
+                " *** ",
+                "*    ",
+                "*    ",
+                " *** ",
+                "    *",
+                "    *",
+                " *** "
         });
 
         characterPatternMap[3] = new CharacterPatternMap(' ', new String[] {
