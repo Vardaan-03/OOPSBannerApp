@@ -26,13 +26,13 @@ public class OOPSBannerAppUC8 {
         });
 
         charMap.put('S', new String[] {
-                "*****",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "  *  ",
-                "*****"
+                " *** ",
+                "*    ",
+                "*    ",
+                " *** ",
+                "    *",
+                "    *",
+                " *** "
         });
 
         return charMap;
